@@ -18,3 +18,5 @@
 <p>This project entails creating a website similar to Awwards. Web visitors of this website can create a secure account, post a project, view and rate other user projects. Users can also search for and view performance score of their projects.</p>
 
 ## Installation
+
+To gain acess to this application click on this link: https://github.com/BrianJomo/Project-Host
