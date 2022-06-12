@@ -20,3 +20,5 @@
 ## Installation
 
 To gain acess to this application click on this link: https://github.com/BrianJomo/Project-Host
+
+### Requirements
