@@ -16,3 +16,5 @@
 ## Description
 
 <p>This project entails creating a website similar to Awwards. Web visitors of this website can create a secure account, post a project, view and rate other user projects. Users can also search for and view performance score of their projects.</p>
+
+## Installation
