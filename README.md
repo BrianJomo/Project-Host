@@ -38,3 +38,4 @@ and for SSH, use the following command;
 git@github.com:BrianJomo/Project-Host.git
 ```
 
+### Setting up environment variables
