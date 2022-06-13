@@ -55,3 +55,24 @@ DISABLE_COLLECTSTATIC=1
 ```
 
 Then run the following commands in the terminal then run the manage.py file in order to run the web application.
+
+```
+$ python3.8 -m venv --without-pip virtual
+
+$ source virtual/bin/activate
+
+$ curl https://bootstrap.pypa.io/get-pip.py | python
+
+$ pip3 install -r requirements.txt 
+
+$ python3.8 manage.py check
+
+$ python3.8 manage.py makemigrations <installed app name>
+
+$ python3.8 manage.py sqlmigrate <installed app name> 0001
+
+$ python3.8 manage.py migrate
+
+$ python3 manage.py runserver
+
+```
