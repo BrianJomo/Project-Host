@@ -94,3 +94,13 @@ To explore the features of this instagram clone website navigate to this link on
 
 * Postgresql - Which was used as a database for data storage.
 
+
+## Reference
+
+* PEP 8 – Style Guide for Python.
+
+* Materialize CSS.
+
+* Django documentation.
+
+
