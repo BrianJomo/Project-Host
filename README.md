@@ -76,3 +76,6 @@ $ python3.8 manage.py migrate
 $ python3 manage.py runserver
 
 ```
+
+To explore the features of this instagram clone website navigate to this link on your browser or just click on this link: 
+
