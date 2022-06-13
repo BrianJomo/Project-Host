@@ -79,3 +79,18 @@ $ python3 manage.py runserver
 
 To explore the features of this instagram clone website navigate to this link on your browser or just click on this link: 
 
+
+## Technology Used
+
+* Python - Which was used to structure and build the logic hence interactive with the client-side and server-side.
+
+* HTML - which was used to build the structure of the web pages.
+
+* CSS - which was used to style the web pages.
+
+* Bootsrap - which was also used to style the web pages.
+
+* Django - Which made creating web applications in Python easier.
+
+* Postgresql - Which was used as a database for data storage.
+
