@@ -1,1 +1,1 @@
-web: gunicorn award.wsgi --log-file -
+web: gunicorn --pythonpath Gabiawward Gabiawward.wsgi --log-file -
