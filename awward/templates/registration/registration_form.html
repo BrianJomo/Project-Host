@@ -1,0 +1,42 @@
+ {% extends 'registration/base.html'%} {% load bootstrap4 %} {% block content %}
+<div class="container">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+        {% if form.errors %}
+        <p>Please make sure all information is correct</p>
+        {% endif %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>Sign up</h3>
+            </div>
+            <div class="panel-body">
+                <form action="/accounts/register/" method="POST">
+                    {% csrf_token %} {% bootstrap_form form %}
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary btn-sm" value="Sign Up">
+
+                    </div>
+                    <input type="hidden" name="next" value=" {{next}} ">
+                </form>
+                <p>Already have an account?
+                    <a class="btn btn-primary" href="/accounts/login/">  Log In </a> 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<style>
+    .caption {
+        font-family: 'Courgette', cursive;
+    }
+    
+    body {
+        background-image: url(https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?cs=srgb&dl=pexels-picjumbocom-196658.jpg&fm=jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    }
+</style>
+{% endblock %}
