@@ -4,6 +4,7 @@ cloudinary==1.26.0
 confusable-homoglyphs==3.2.0
 dj-database-url==0.5.0
 Django==3.2.5
+django-awards==0.3.3
 django-bootstrap3==15.0.0
 django-bootstrap4==22.1
 django-braces==1.14.0
