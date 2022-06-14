@@ -77,7 +77,7 @@ $ python3 manage.py runserver
 
 ```
 
-To explore the features of this project host website navigate to this link on your browser or just click on this link: 
+To explore the features of this project host website navigate to this link on your browser or just click on this link: https://awwards-2.herokuapp.com/accounts/login/?next=/
 
 
 ## Technology Used
